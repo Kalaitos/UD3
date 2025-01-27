@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar elementos con FlexBox</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://www.rutadelvinodelamancha.com/wp-content/uploads/2018/10/Molinos-Alca%CC%81zar-de-San-Juan_-.jpg);
+            background-size: cover;
+            height: 500px;
+            width: 100%;
+        }
+
+        section#sec1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+
+        section#sec2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        img {width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="text-align: center; color: red;">
+            <h1>Visite La Mancha</h1>
+            <h2>Tierra del Quijote</h2>
+        </div>
+    </header>
+    <section id="sec1">
+        <p style="font-style: italic;"> Una experiencia inolvidable </p>
+
+    </section>
+
+    <section id="sec2">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/f8/8d/a9/molinos-de-alcazar-de.jpg">
+    </section>
+</body>
+
+</html>

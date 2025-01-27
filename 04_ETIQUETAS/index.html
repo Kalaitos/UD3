@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semánticas HTML</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            height: 150px;
+        }
+
+        nav {
+            background-color: blue;
+            color: yellow;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+
+        main {
+            background-color: pink;
+            height: 400px;
+        }
+
+        section {
+            background-color: lightgreen;
+            width: 60%;
+            height: 100%;
+            float: left;
+        }
+
+        article {
+            background-color: antiquewhite;
+            height: 50%;
+        }
+
+        aside {
+            width: 40%;
+            height: 100%;
+            background-color: lightgray;
+            float: left;
+        }
+
+        footer {
+            background-color: grey;
+            height: 100px;
+            text-align: center;
+        }
+
+        nav a { text-decoration: none;
+        color: aliceblue;}
+
+        nav a:hover {color: blue; font-weight: bold;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bernarda</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Tienda</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Novedades">
+            <article>
+                <h2>Nuevas campanas </h2>
+                Han llegado  más potentes
+            </article>
+            <article>
+                <h2>Rebajas en mobiliario</h2>
+                <p>Este mes obtenga un 20% de descuento con su carnet de socio</p>
+            </article>
+
+        </section>
+        <aside>
+            <p>
+                Visite nuestra nueva tienda en Herencia
+            </p>
+        </aside>
+    </main>
+    <footer> (c) Distribuciones Perez</footer>
+</body>
+
+</html>
